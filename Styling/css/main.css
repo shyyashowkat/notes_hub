@@ -2371,12 +2371,12 @@ table {
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
+		color: blue;
 	}
 
 		table tbody tr {
-			border: solid 1px #dbdbdb;
-			border-left: 0;
-			border-right: 0;
+			border: solid 1px #000000;
+			
 		}
 
 			table tbody tr:nth-child(2n + 1) {
@@ -2388,7 +2388,8 @@ table {
 		}
 
 		table th {
-			color: #555;
+			border: solid 1px #000000;
+			color: rgb(255, 0, 0);
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2396,11 +2397,11 @@ table {
 		}
 
 		table thead {
-			border-bottom: solid 2px #dbdbdb;
+			border-bottom: solid 1px #000000;
 		}
 
 		table tfoot {
-			border-top: solid 2px #dbdbdb;
+			border-top: solid 1px #dbdbdb;
 		}
 
 		table.alt {
